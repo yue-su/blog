@@ -5,25 +5,21 @@ entries:
   - title: About me
     entries:
       - title: Yue Su
-      - title: About
+      - title: A short introduction
         url: about
-      - title: My online presence "<a href='https://www.douban.com/people/Suxyue/'>douban</a>"
+      - title: My online presence <a href='https://www.douban.com/people/Suxyue/'>Douban</a>
 
-  - title: Recent posts
+  - title: All posts
     post_list:
       limit: 5
-      show_more: false
+      show_more: true
+      how_more_text: See archive...
+      show_more_url: archive.html
 
   - title: Personal
     post_list:
       category: personal
+      limit: 3
       show_more: true
       show_more_text: See more posts...
       show_more_url: archive_personal.html
-
-  - title: All posts
-    post_list:
-      limit: 3
-      show_more: true
-      how_more_text: See archive...
-      show_more_url: archive.html
