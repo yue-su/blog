@@ -3,6 +3,6 @@ layout: page
 title: About
 ---
 
-This is an example page!
+This is Yue's blog page, and this is where content is stored that has not been censored or self-censored by the authorities.
 
-It's very similar to a `post` layout, with the only difference that the publish date is not shown!
+这里是 Yue 随意写作的地方，所有内容没有经过审查和自我审查的过滤。

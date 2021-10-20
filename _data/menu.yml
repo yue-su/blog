@@ -4,35 +4,26 @@
 entries:
   - title: About me
     entries:
-      - title: a (nearly) no-CSS, fast, minimalist Jekyll theme.
-      - title: github repo
-        url: https://github.com/riggraz/no-style-please
-      - title: "used by <a href='https://riggraz.dev'>riggraz.dev</a> and <a href='https://github.com/riggraz/no-style-please/network/dependents'>many others</a>"
+      - title: Yue Su
+      - title: About
+        url: about
+      - title: My online presence "<a href='https://www.douban.com/people/Suxyue/'>douban</a>"
 
-  - title: all posts
+  - title: Recent posts
     post_list:
       limit: 5
-      show_more: true
-      show_more_text: See archive...
-      show_more_url: archive.html
+      show_more: false
 
-  - title: posts by category
+  - title: Personal
     post_list:
-      category: example2
+      category: personal
       show_more: true
       show_more_text: See more posts...
-      show_more_url: example2-archive.html
+      show_more_url: archive_personal.html
 
-  - title: rss
-    url: feed.xml
-  
-  - title: another list
-    entries:
-      - title: with subitems
-        entries:
-          - title: with subsubitems
-          - title: example page
-            url: about
-  - title: PRO TIP
-    entries:
-      - title: to edit this menu, edit _data/menu.yml file
+  - title: All posts
+    post_list:
+      limit: 3
+      show_more: true
+      how_more_text: See archive...
+      show_more_url: archive.html
