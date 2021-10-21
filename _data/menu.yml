@@ -4,12 +4,10 @@
 entries:
   - title: About me
     entries:
-      - title: Yue Su
-      - title: A short introduction
+      - title: a short intro
         url: about
-      - title: My online presence <a href='https://www.douban.com/people/Suxyue/'>Douban</a>
 
-  - title: All posts
+  - title: Posts
     post_list:
       limit: 5
       show_more: true
@@ -23,3 +21,10 @@ entries:
       show_more: true
       show_more_text: See more posts...
       show_more_url: archive_personal.html
+
+  - title: Resources
+    entries:
+      - title: Web Development
+        url: web
+      - title: Bookmarks
+        url: bookmarks
