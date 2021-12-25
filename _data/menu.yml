@@ -22,6 +22,14 @@ entries:
       show_more_text: See more posts...
       show_more_url: archive_personal.html
 
+  - title: Letter
+    post_list:
+      category: letter
+      limit: 3
+      show_more: true
+      show_more_text: See more posts...
+      show_more_url: archive_personal.html
+
   - title: Resources
     entries:
       - title: Web Development
