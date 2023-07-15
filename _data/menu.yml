@@ -22,9 +22,9 @@ entries:
       show_more_text: See more posts...
       show_more_url: archive_personal.html
 
-  - title: Letter
+  - title: Django
     post_list:
-      category: letter
+      category: Django
       limit: 3
       show_more: true
       show_more_text: See more posts...
