@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Web Development
+title: Django Resources
 ---
 
 Awesome Django

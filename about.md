@@ -3,6 +3,9 @@ layout: page
 title: About
 ---
 
-This is Yue's blog page, and this is where content is stored that has not been censored or self-censored by the authorities.
+Welcome to my blog, a digital hub forged from my passion for backend and frontend development, and my ventures into the pragmatic realm of DevOps.
 
-这里是 Yue 随意写作的地方，所有内容没有经过审查和自我审查的过滤。
+As a dedicated software developer, my daily work revolves around crafting effective solutions, architecting applications, and facilitating seamless software deployments. The dynamic world of code, challenges, and continuous learning is what I breathe and I'm thrilled to share it with you.
+
+Yue
+

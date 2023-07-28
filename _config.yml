@@ -4,7 +4,7 @@ email: su2047@gmail.com # email of site's author
 url: https://blog.yue-su.dev # root address of the site
 baseurl: "" # subpath of the site, e.g. "/blog" (leave it blank "" if you're site shouldn't use a subpath)
 description: > # description of the site (multiple lines allowed)
-  Yue's thoughts and memories.
+  Welcome to my blog, a coder's chronicle where I share my journey through the realms of Django, React, and GitLab CI/CD, unveiling the art, challenges, and triumphs of software development and DevOps.
 
 permalink: /:slug.html
 

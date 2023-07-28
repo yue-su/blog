@@ -7,32 +7,31 @@ entries:
       - title: a short intro
         url: about
 
-  - title: Posts
+  - title: Django
+    post_list:
+      category: Django
+      limit: 5
+      show_more: true
+      show_more_text: See more posts...
+      show_more_url: archive_django.html
+
+  - title: DevOps and Backend
+    post_list:
+      category: DevOps
+      limit: 5
+      show_more: true
+      show_more_text: See more posts...
+      show_more_url: archive_DevOps.html
+
+  - title: All Posts
     post_list:
       limit: 5
       show_more: true
       how_more_text: See archive...
       show_more_url: archive.html
 
-  - title: Personal
-    post_list:
-      category: personal
-      limit: 3
-      show_more: true
-      show_more_text: See more posts...
-      show_more_url: archive_personal.html
-
-  - title: Django
-    post_list:
-      category: Django
-      limit: 3
-      show_more: true
-      show_more_text: See more posts...
-      show_more_url: archive_personal.html
-
   - title: Resources
     entries:
-      - title: Web Development
-        url: web
-      - title: Bookmarks
+      - title: Usful Links
         url: bookmarks
+
