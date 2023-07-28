@@ -12,28 +12,6 @@ Here are the main steps involved:
 
 1. **Ensure that the GPU driver is installed properly on the instance.** This is relatively easy. We followed this [guide](https://docs.alliancecan.ca/wiki/Using_cloud_vGPUs#Preparation_of_a_VM_running_Debian11). To check if everything is working as expected, use the `nvidia-smi` command line. If all is well, you will see the CUDA version and other related information. For additional guidance, refer to the official [CUDA installation guide](https://docs.nvidia.com/cuda/cuda-installation-guide-linux/index.html).
 
-    ```
-    +-----------------------------------------------------------------------------+
-    | NVIDIA-SMI 470.199.02   Driver Version: 470.199.02   CUDA Version: 11.4     |
-    |-------------------------------+----------------------+----------------------+
-    | GPU  Name        Persistence-M| Bus-Id        Disp.A | Volatile Uncorr. ECC |
-    | Fan  Temp  Perf  Pwr:Usage/Cap|         Memory-Usage | GPU-Util  Compute M. |
-    |                               |                      |               MIG M. |
-    |===============================+======================+======================|
-    |   0  GRID V100D-8C       On   | 00000000:00:05.0 Off |                    0 |
-    | N/A   N/A    P0    N/A /  N/A |    560MiB /  8192MiB |      0%      Default |
-    |                               |                      |                  N/A |
-    +-------------------------------+----------------------+----------------------+
-                                                                                
-    +-----------------------------------------------------------------------------+
-    | Processes:                                                                  |
-    |  GPU   GI   CI        PID   Type   Process name                  GPU Memory |
-    |        ID   ID                                                   Usage      |
-    |=============================================================================|
-    |  No running processes found                                                 |
-    +-----------------------------------------------------------------------------+
-    ```
-
 2. **Use the base Dockerfile to build the backend.** It's crucial to mention that the chosen image should be based on the CUDA driver version used in your environment. If they do not match, the container might throw errors. Ubuntu20.04 comes with Python 3.8 by default. If you do not set up symbolic links correctly, the packages will be installed with Python 3.8, resulting in errors. We used the official [NVIDIA CUDA Docker images](https://hub.docker.com/r/nvidia/cuda) as a base.
 
     ```Dockerfile
